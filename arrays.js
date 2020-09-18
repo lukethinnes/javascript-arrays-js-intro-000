@@ -11,7 +11,8 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 }
 
 function addElementToEndOfArray(array, element){
-  array.push(element)
+var array = ['0', '1'];
+  array.push('3');
   return array
 }
 
