@@ -3,9 +3,10 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 function addElementToBeginningOfArray {
   var myArray = ['2', '3', '4', '5'];
   myArray.push('1');
+  myArray
 }
 
-function destructivelyAddElementToBeginningOfArray{
+function destructivelyAddElementToBeginningOfArray {
   var myArray = ['2', '3', '4', '5'];
   myArray = ['5', ...myArray];
 }
